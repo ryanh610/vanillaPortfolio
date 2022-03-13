@@ -1,6 +1,7 @@
 body {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'LeagueMonoVariable', 'monaco', 'helvetica';
     background-color: gray;
+    margin: 0;
 }
 
 header {
@@ -8,22 +9,43 @@ header {
     justify-content: space-between;
     background-color: indianred;
     width: 100%;
-    position: fixed;
     align-items: center;
-    height: 70px;
+    height: 60px;
+    box-shadow: 0 0 5px 0 black;
 }
 
 header h1 {
     margin: 0 0 0 10px;
-    font-family: 'LeagueMonoVariable', 'monaco', 'helvetica';
 }
 
 nav {
-    margin: 0 10px 0 0;
     display: flex;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+figure img {
+    height: 300px;
+    width: 300px;
+}
+
+.section-headers {
+    width: auto;
+    padding: 100px 10% 100px 10%;
+    border-right: 2px solid black;
 }
 
 .navbar {
     margin: 15px;
     border: 0 2px 0 0 solid gray;
+    text-decoration: underline 2px;
+}
+
+#about-me-p {
+    width: 500px;
 }
