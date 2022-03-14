@@ -7,25 +7,67 @@
     </head>
     <body>
         <header>
-            <h1>
-                Howley
-            </h1>
+
+            <!-- These are the elements of my navigation bar -->
             <nav>
-                <h3 class="navbar" id="projects">Projects</h3>
-                <h3 class="navbar" id="github">GitHub</h3>
-                <h3 class="navbar" id="linkedin">LinkedIn</h3>
-                <h3 class="navbar" id="Resume">Resume</h3>
+                <h1 id="name">Ryan Howley</h1>
+                <div class="nav-items">
+                    <a href="#" class="navbar" id="projects">Projects</a>
+                    <a href="#" class="navbar" id="github">GitHub</a>
+                    <a href="#" class="navbar" id="linkedin">LinkedIn</a>
+                    <a href="#" class="navbar" id="Resume">Resume</a>
+                </div>
             </nav>
         </header>
+        
+        <!-- This is where my main body components will be -->
         <main>
+            <div>
+                <img id="banner" src="./assets/images/71orYxLGiGL._AC_SL1400_.jpg">
+            </div>
+
+            <!-- This is my about me section -->
             <section id="about">
                 <h2 class="section-headers">About Me</h2>
-                    <p id="about-me-p">
-                        Placeholder text. Placeholder text. Placeholder text. Placeholder text. Placeholder text. Placeholder text.Placeholder text. Placeholder text. Placeholder text. Placeholder text. Placeholder text. Placeholder text. Placeholder text. Placeholder text. Placeholder text. Placeholder text. Placeholder text. Placeholder text.
-                    </p>
-                <figure>
-                    <img src="./assets/images/male-placeholder-image.jpeg" alt="male-placeholder-image">
-                </figure>
+                <img id="profile" src="./assets/images/male-placeholder-image.jpeg" alt="male male-placeholder-image">
+                <p class="content">
+                    <span><strong>Ryan Howley</strong></span><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis ipsa natus sit, nulla, ut voluptate sequi vel aut quisquam animi ipsam accusantium nam, nesciunt cupiditate eveniet. Sapiente cumque ut officiis numquam quia ipsam, molestias maiores asperiores! Nihil optio ipsum dicta eius doloremque eligendi, voluptatem iure illo necessitatibus, dignissimos nobis natus.
+                </p>
+
+                <!-- This is my project/work section -->
+            </section>
+            <section id="Projects">
+                <h2 class="section-headers">Projects</h2>
+                <a href="#" class="card" id="card1">
+                    <div class="card-header">
+                      <img src="https://images.unsplash.com/photo-1646974005583-01e9a7b0b5f8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80" alt="">
+                    </div>
+                    <div class="card-content">
+                      <span>Project One</span>
+                      <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, temporibus!</p>
+                    </div>
+                </a>
+                <a href="#" class="card" id="card2">
+                    <div class="card-header">
+                      <img src="https://images.unsplash.com/photo-1646974005583-01e9a7b0b5f8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80" alt="">
+                    </div>
+                    <div class="card-content">
+                      <span>Project Two</span>
+                      <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, temporibus!</p>
+                    </div>
+                </a>
+                <a href="#" class="card" id="card3">
+                    <div class="card-header">
+                      <img src="https://images.unsplash.com/photo-1646974005583-01e9a7b0b5f8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80" alt="">
+                    </div>
+                    <div class="card-content">
+                      <span>Project Three</span>
+                      <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, temporibus!</p>
+                    </div>
+                </a>
             </section>
         </main>
     </body>
