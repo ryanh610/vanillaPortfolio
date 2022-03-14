@@ -1,12 +1,15 @@
 body {
-    font-family: 'LeagueMonoVariable', 'monaco', 'helvetica';
-    background-color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: whitesmoke;
     margin: 0;
-    width: 100%;
+
 }
 
 main {
     margin: 0;
+    width: 80%;
+    background-color: gray;
+    justify-content: center;
 }
 
 header {
@@ -18,6 +21,7 @@ header {
     align-items: center;
     height: 100%;
     box-shadow: 0 0 5px 0 black;
+
 }
 
 nav {
@@ -27,12 +31,29 @@ nav {
 }
 
 section {
-    display: flex;
+    display: inline-flex;
     margin-top: 5%;
     margin: 15px;
     top: 50%;
     bottom: 50%;
     font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: indianred;
+    width: 100%;
+    align-items: center;
+    height: 100%;
+    box-shadow: 0 0 5px 0 black;
+
 }
 
 .navbar {
@@ -84,22 +105,6 @@ section {
     padding: 1rem;
 }
 
-#profile {
-    width: 200px;
-    margin: 50px;
-}
-
-#banner {
-    width: 100%;
-}
-
-#name {
-    margin: 15px;
-    top: 50%;
-    bottom: 50%;
-    font-size: 24px;
-    justify-content: start;
-}
 
 .card-content span {
     background-color: #51adc4;
@@ -119,7 +124,26 @@ section {
     font-size: 14px;
 }
 
-@media screen and (max-width: 610px) {
+#profile {
+    width: 200px;
+    margin: 50px;
+    border-radius: 1rem;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.6);
+}
+
+#banner {
+    width: 100%;
+}
+
+#name {
+    margin: 15px;
+    top: 50%;
+    bottom: 50%;
+    font-size: 24px;
+    justify-content: start;
+}
+
+@media screen and (max-width: 900px) {
     header {
         display: flex;
         justify-content: center;
@@ -136,7 +160,36 @@ section {
         flex-direction: column;
         justify-content: center;
     }
+    
+    section {
+        flex-direction: column;
+        align-items: center;
+    }
+    
     .navbar {
         text-align: center;
     }
+
+    .nav-items {
+        flex-direction: column;
+    }
+
+    .section-headers {
+        width: 150px;
+        padding: 10px;
+        border-bottom: 2px solid black;
+        border-right: 0;
+        margin-right: 20px;
+        margin-left: 20px;
+        text-align: center;
+    }
+
+    #name {
+        margin: 15px;
+        top: 50%;
+        bottom: 50%;
+        font-size: 24px;
+        text-align: center;
+    }
+    
 }
