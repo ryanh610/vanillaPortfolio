@@ -3,9 +3,12 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: whitesmoke;
     margin: 0;
+    margin-top: 5rem;
 }
 
 main {
+    display: flex;
+    flex-direction: column;
     margin: 0;
     width: 80%;
     background-color: gray;
@@ -15,14 +18,15 @@ main {
 
 header {
     display: flex;
+    position: fixed;
+    height: 5rem;
+    top: 0;
     justify-content: space-between;
     flex-wrap: wrap;
     background-color: indianred;
     width: 100%;
     align-items: center;
-    height: 100%;
     box-shadow: 0 0 5px 0 black;
-
 }
 
 nav {
@@ -45,16 +49,15 @@ a {
     color: black;
 }
 
-header, footer {
+footer {
     display: flex;
+    position: absolute bottom 100;
     justify-content: space-between;
     flex-wrap: wrap;
     background-color: indianred;
     width: 100%;
     align-items: center;
-    height: 100%;
     box-shadow: 0 0 5px 0 black;
-
 }
 
 h2 {
@@ -173,6 +176,9 @@ h2 {
     align-items: center;
     padding: 0;
 }
+#card1 {
+    width: 500px;
+}
 
 /* formatting for tablet and mobile */
 @media screen and (max-width: 1100px) {
@@ -186,6 +192,14 @@ h2 {
         box-shadow: 0 0 5px 0 black;
         height: 400px;
     }
+
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: whitesmoke;
+        margin: 0;
+        margin-top: 25rem;
+    }
+
     nav {
         display: flex;
         flex-wrap: wrap;
@@ -222,6 +236,15 @@ h2 {
         bottom: 50%;
         font-size: 24px;
         text-align: center;
+    } 
+}
+
+@media screen and (min-width: 2050px) {
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: whitesmoke;
+        margin: 0;
+        height: 100vh;
+        margin-top: 5rem;
     }
-    
 }
