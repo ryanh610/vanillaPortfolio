@@ -8,6 +8,10 @@ For this project, I have created a personal portfolio webpage to display my unde
 - A work section containing projects
 - A footer containing contact information
 
+Update 1: I have updated my portfolio to include project one and two complimentary assignments.
+
+Update 2: I have updated my portfolio to include project two and a complimentary assignments.
+
 Screenshot of webpage
 ![Full-screen screenshot](./assets/images/portrait.jpg "2560x1440 render of webpage")
 
